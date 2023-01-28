@@ -71,19 +71,46 @@ p{
     margin: 20px 0 20px 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+.texto .precio .precio-2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.texto  .precio img{
+
+    margin-right: 10px;
 }
 
 h3{
     font-weight: 900;
     font-size: 1rem;
+    margin-right: 40px;
 }
 
 span{
     font-size: 0.9rem;
     font-weight: 300;
     color: hsl(224, 23%, 55%) ;
+    
+}
+
+a{
+    
+    color:  hsl(245, 75%, 52%);
+    font-size: 'Red Hat Display';
+    font-weight: 900;
+}
+
+
+a:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .bottom-buy{
@@ -94,6 +121,11 @@ span{
     box-shadow: 0px 5px 10px  hsl(224, 23%, 55%);
 
 
+}
+
+.bottom-buy:hover{
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
 }
 
 .bottom-buy h2{
@@ -108,6 +140,110 @@ span{
     font-weight: 700;
     padding: 10px;
     margin-top: 20px;
+    margin-bottom: 40px;
 
+    
+}
+
+.bottom-cancel h2:hover{
+
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (min-width:720px) and (max-width:990px) {
+
+    body{
+
+        background-image: url(/images/pattern-background-desktop.svg);
+
+        background-color: none;
+
+    }
+
+    .card{
+        width: 35%;
+        margin-top: 20px;
+    }
+
+    .card .img-mobile{
+        margin-bottom: 5px;
+        height: 160px;
+    }
+    p{
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    
+}
+
+@media screen and (min-width:991px) and (max-1190px) {
+
+    body{
+
+        background-image: url(/images/pattern-background-desktop.svg);
+
+        background-size:auto;
+
+        background-color: none;
+
+    }
+
+    .card{
+        width: 35vw;
+        
+        margin-top: 40px;
+
+    }
+
+    .card .texto{
+        width: 80%;
+    }
+
+   h1 {
+
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    p{
+        font-size: 1rem;
+        width: 85%;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    .texto .precio{
+        margin: 25px 0 25px 0;
+        padding: 5px;
+        
+    }
+
+    h3{
+        font-size: 1rem;
+
+    }
+    
+    span{
+        font-size: 0.7rem
+    };
+    a{
+        font-size: 0.9rem;
+    }
+
+    .bottom-buy{
+        margin: 0 10px 0 10px;
+    }
+
+    .bottom-cancel h2{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:1191px) {
+
+    .card{
+        width: 25vw;
+    }
     
 }
