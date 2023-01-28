@@ -1,2 +1,2 @@
-# esumen-de-pedido
+# Resumen-de-pedido
 desafio 4 de frontend mentor
