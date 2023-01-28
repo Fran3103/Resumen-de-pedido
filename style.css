@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    
+    
+}
+
+.card{
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+.card .img-mobile{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 20px;
+    
+}
+
+.card .texto{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+
+}
+
+h1{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+
+p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 20px;
+    color: hsl(224, 23%, 55%);
+    width: 80%;
+}
+
+.texto .precio{
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px 0 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3{
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+span{
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: hsl(224, 23%, 55%) ;
+}
+
+.bottom-buy{
+    width: 100%;
+    padding: 15px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px  hsl(224, 23%, 55%);
+
+
+}
+
+.bottom-buy h2{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.bottom-cancel h2{
+
+    color: hsl(224, 23%, 55%) ;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 20px;
+
+    
+}
